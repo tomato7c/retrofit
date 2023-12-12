@@ -1,4 +1,5 @@
 apply plugin: 'java-library'
+apply plugin: 'scala'
 
 dependencies {
   implementation projects.retrofit
@@ -11,4 +12,5 @@ dependencies {
   implementation libs.guava
   implementation libs.jsoup
   compileOnly libs.findBugsAnnotations
+  implementation 'org.scala-lang:scala-library:2.13.9'
 }
